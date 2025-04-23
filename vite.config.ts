@@ -23,6 +23,6 @@ export default defineConfig({
     },
   },
   server: {
-    allowedHosts: 'all',
-  }
+    allowedHosts: [".csb.app"],
+  },
 });
