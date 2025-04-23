@@ -22,4 +22,7 @@ export default defineConfig({
       "@assets": "/assets",
     },
   },
+  server: {
+    allowedHosts: 'all',
+  }
 });
