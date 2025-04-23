@@ -1,0 +1,32 @@
+{
+  "name": "linaria-react",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@linaria/core": "^4.5.4",
+    "@linaria/react": "^4.5.4",
+    "@svgr/rollup": "^8.1.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.54.2",
+    "react-router": "^7.3.0",
+    "react-router-dom": "^7.3.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@linaria/vite": "^4.5.4",
+    "@types/react": "^18.2.17",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react-refresh": "^1.3.1",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.7"
+  },
+  "keywords": [],
+  "description": "@vitejs/create-app v2.4.1"
+}
